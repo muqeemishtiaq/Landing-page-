@@ -31,12 +31,13 @@ nav {
   }
   .home-image {
     display: flex;
-    padding: 10px 30px; 
+    padding: 10px 40px; 
     
   }
   .home-image img {
     max-width: 110%;
     object-fit: cover; 
+    
   }
   .para {
     padding: 10px 20px ;
@@ -78,6 +79,12 @@ nav {
 }
 .para4{
     padding: 20px 20px;
+}
+.iframe {
+    width: 1600px;
+    height: 700px;
+    padding: 10px 30px;
+    margin: 10px 20px;
 }
 .formpage {
     padding: 20px;;

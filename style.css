@@ -1,4 +1,5 @@
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -30,8 +31,8 @@ nav {
   }
   .home-image {
     display: flex;
-    padding: 10px 20px; 
-  
+    padding: 10px 30px; 
+    
   }
   .home-image img {
     max-width: 110%;
@@ -47,8 +48,9 @@ nav {
     height: 100px; 
     padding: 10px;
     float: right;
-    margin-left: 10px;
+    margin-right: 100px;
     border: 2px solid black;
+    
   }
   .iframe {
     display: flex;
@@ -64,26 +66,29 @@ nav {
 
   }
 .para3 {
-    padding: 10px 20px;
+  padding: 20px 20px;
 }
 .car2{
     height: 100px; 
     padding: 20px;
     float: left;
     margin-left: 10px;
+   
+    
 }
 .para4{
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 .formpage {
     padding: 20px;;
 }
 .map {
+  height: 400px;
     display: flex;
-    padding: 10px 180px; 
-    max-width: 200%;
+    padding: 10px 500px; 
+    max-width: 300%;
     object-fit: cover; 
-    align-items: center;
+    
     
 }
 .footer{

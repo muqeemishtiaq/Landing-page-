@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <img src="Lamborghini_Logo_PNG_-_Free_Download-removebg-preview.png" alt="Logo" class="logo">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div id="contact">
+    <form class="formpage">
+      <fieldset>
+       <legend>Your Details</legend>
+       <label for="name">Name:</label>
+       <input type="text" name="name" id="name"> <br>
+       <label for="email">Email:</label>
+       <input type="email" name="email" id="email">
+      </fieldset>
+      <fieldset>
+        <legend>Your Review</legend>
+        <label for="suggest">How did you hear about us?</label>
+        <select name="suggest" id="suggest">
+         <option value="Friend">Friend</option>
+         <option value="Google">Google</option>
+         <option value="Facebook">Facebook</option>
+        </select>
+        <legend>Would you visit again?</legend>
+        <label><input type="radio" name="again" value="Yes">Yes</label>
+        <label><input type="radio" name="again" value="No">No</label>
+        <label><input type="radio" name="again" value="Maybe">Maybe</label> <br>
+        <label for="comments">Comments</label> <br>
+        <textarea name="comments" id="comments"></textarea> <br>
+        <label for="subscribe"><input type="checkbox" id="subscribe">Sign me up for email updates</label> <br>
+        <button type="submit">Submit Review</button>
+      </fieldset>
+    </form>
+
+    <div>
+      <img src="map.png" alt="CONTACT" class="map">
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p class="fpara">Copyright &copy 2019. All rights reserved</p>
+  </footer>
+</body>
+</html>

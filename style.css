@@ -90,11 +90,10 @@ nav {
     padding: 20px;;
 }
 .map {
-  height: 400px;
-    display: flex;
-    padding: 10px 500px; 
-    max-width: 300%;
-    object-fit: cover; 
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
     
     
 }

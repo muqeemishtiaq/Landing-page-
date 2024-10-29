@@ -18,7 +18,8 @@
   </nav>
 
   <div id="contact">
-    <form class="formpage">
+    <!-- Form with id to match JavaScript -->
+    <form id="reviewForm" class="formpage">
       <fieldset>
        <legend>Your Details</legend>
        <label for="name">Name:</label>
@@ -26,7 +27,7 @@
        <span id="nameError" style="color: red;"></span>
        <br>
        <label for="email">Email:</label>
-       <input type="email" name="email" id="email" required  placeholder="Password" onblur="Email()"> <br>
+       <input type="email" name="email" id="email" required placeholder="Email" onblur="Email()"> <br>
        <span id="emailError" style="color: red;"></span><br>
       </fieldset>
       <fieldset>
@@ -43,10 +44,10 @@
         <label><input type="radio" name="again" value="Maybe">Maybe</label> <br>
         <label for="comments">Comments</label> <br>
         <textarea name="comments" id="comments" required minlength="10" maxlength="50" onblur="Comments()"></textarea> <br>
-        <span id="commentsError" style="color:  red;"></span>
+        <span id="commentsError" style="color: red;"></span>
         <br>
-        <label for="subscribe"><input type="checkbox" id="subscribe" required >Sign me up for email updates</label> <br>
-        <button type="submit" required>Submit Review</button>
+        <label for="subscribe"><input type="checkbox" id="subscribe" required> Sign me up for email updates</label> <br>
+        <button type="submit" required class="button">Submit Review</button>
       </fieldset>
     </form>
 
@@ -56,8 +57,9 @@
   </div>
 
   <footer class="footer">
-    <p class="fpara">Copyright &copy 2019. All rights reserved</p>
+    <p class="fpara">Copyright &copy; 2019. All rights reserved</p>
   </footer>
+
   <script src="index.js"></script>
 </body>
 </html>

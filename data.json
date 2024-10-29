@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "comments": "Great service, will come back!"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "comments": "Amazing experience, highly recommend!"
+    },
+    {
+      "id": 3,
+      "name": "Bob Brown",
+      "email": "bobbrown@example.com",
+      "comments": "It was okay, might visit again."
+    }
+  ]
+  

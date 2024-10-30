@@ -1,0 +1,109 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #71b4f3;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px 30px; 
+    margin: 0px 20px;  
+    
+  }
+
+
+  .logo {
+    width: 60px; 
+  }
+ 
+  nav ul {
+    display: flex;
+    list-style: none; 
+  }
+ 
+  nav li {
+    text-align: right;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding-right: 20px;
+    padding-top: 40px;
+    
+  }
+  .home-image {
+    display: flex;
+    padding: 10px 40px; 
+    
+  }
+  .home-image img {
+    max-width: 110%;
+    object-fit: cover; 
+    
+  }
+  .para {
+    padding: 10px 20px ;
+  }
+  .para2 {
+    padding: 10px 20px ;
+  }
+  .carimg {
+    height: 100px; 
+    padding: 10px;
+    float: right;
+    margin-right: 100px;
+    border: 2px solid black;
+    
+  }
+  .iframe {
+    display: flex;
+    padding: 10px 20px; 
+    align-items: center;
+  }
+  .car1{
+    height: 100px; 
+    padding: 20px;
+    float: left;
+    margin-left: 10px;
+    
+
+  }
+.para3 {
+  padding: 20px 20px;
+}
+.car2{
+    height: 100px; 
+    padding: 20px;
+    float: left;
+    margin-left: 10px;
+   
+    
+}
+.para4{
+    padding: 20px 20px;
+}
+.iframe {
+    width: 800px;
+    height: 500px;
+    padding: 10px 30px;
+    margin-left: 450px;
+}
+.formpage {
+    padding: 20px;;
+}
+.map {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+    
+}
+.footer{
+    background-color:#33618d ;
+    padding: 10px;
+    text-align: center;
+
+}
+.fpara {
+    margin: 0;
+    
+}

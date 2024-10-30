@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <img src="Lamborghini_Logo_PNG_-_Free_Download-removebg-preview.png" alt="Logo" class="logo">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <div id="contact">
+    
+    <form id="reviewForm" class="formpage">
+      <fieldset>
+       <legend>Your Details</legend>
+       <label for="name">Name:</label>
+       <input type="text" name="name" id="name" placeholder="Full Name" required minlength="3" onblur="Name()"> <br>
+       <span id="nameError" style="color: red;"></span>
+       <br>
+       <label for="email">Email:</label>
+       <input type="email" name="email" id="email" required placeholder="Email" onblur="Email()"> <br>
+       <span id="emailError" style="color: red;"></span><br>
+      </fieldset>
+      <fieldset>
+        <legend>Your Review</legend>
+        <label for="suggest">How did you hear about us?</label>
+        <select name="suggest" id="suggest" required> 
+         <option value="Friend">Friend</option>
+         <option value="Google">Google</option>
+         <option value="Facebook">Facebook</option>
+        </select>
+        <legend>Would you visit again?</legend>
+        <label><input type="radio" name="again" value="Yes" required>Yes</label>
+        <label><input type="radio" name="again" value="No">No</label>
+        <label><input type="radio" name="again" value="Maybe">Maybe</label> <br>
+        <label for="comments">Comments</label> <br>
+        <textarea name="comments" id="comments" required minlength="10" maxlength="50" onblur="Comments()"></textarea> <br>
+        <span id="commentsError" style="color: red;"></span>
+        <br>
+        <label for="subscribe"><input type="checkbox" id="subscribe" required> Sign me up for email updates</label> <br>
+        <button type="submit" required class="button">Submit Review</button>
+      </fieldset>
+    </form>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.7107810211755!2d74.42283177435586!3d31.50463264792159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190458251137f7%3A0xdc5ca6c22390dd1!2sKhaleef%20Technologies!5e0!3m2!1sen!2s!4v1730100419136!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p class="fpara">Copyright &copy; 2019. All rights reserved</p>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="node.js"></script>
+</body>
+</html>

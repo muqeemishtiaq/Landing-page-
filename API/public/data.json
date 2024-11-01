@@ -16,27 +16,11 @@
     "subscribe": "No"
   },
   {
-    "name": "jutt",
-    "email": "muqeemishtiaq1234@gmail.com",
+    "name": "ali sher",
+    "email": "sher@gmail.com",
     "suggest": "Friend",
-    "again": "No",
-    "comments": "likakanamaiojsqskqisj",
-    "subscribe": "Yes"
-  },
-  {
-    "name": "ahmed",
-    "email": "ali@gmail.com",
-    "suggest": "Friend",
-    "again": "No",
-    "comments": "my name is ahmed ali",
-    "subscribe": "Yes"
-  },
-  {
-    "name": "yousaf",
-    "email": "yousaf@gmail.com",
-    "suggest": "Facebook",
-    "again": "No",
-    "comments": "because i don wanna visit",
+    "again": "Maybe",
+    "comments": "ALi Sher is a good boy",
     "subscribe": "Yes"
   }
 ]
